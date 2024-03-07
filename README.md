@@ -1,6 +1,6 @@
 # ROV
 Underwater ROV
-Our ROV to be powered by bldc motor Thruysters (4, 6 or 8 thruster configurations).
+Our ROV to be powered by 6 x bldc motor Thruysters.
 Both Top & Bottom side pcbs to be controlled by Arduino Mega boards
 ROV to be controlled by PS2 controller connected to the Top side
 All data sent by the ROV to be displayed on 16x2 lcd displat at Top side
