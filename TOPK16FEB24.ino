@@ -147,8 +147,9 @@ void setup() {
   lcd.backlight();
 
   Serial.begin(115200);
-  ETin.begin(details(Rx_data), &Serial);
-  ETout.begin(details(Tx_data), &Serial);
+  Serial1.begin(115200);
+  ETin.begin(details(Rx_data), &Serial1);
+  ETout.begin(details(Tx_data), &Serial1);
 
   //PS2
   ps.begin(9600);
